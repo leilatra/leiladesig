@@ -1,0 +1,10 @@
+/* Adaptations mobile et tablette */
+
+@media (max-width: 780px){
+    .concept-grid{grid-template-columns:1fr;}
+    .steps{grid-template-columns:repeat(2,1fr);}
+    .packages{grid-template-columns:1fr;}
+    .pack.featured{transform:none;}
+    .example{flex-direction:column; text-align:center;}
+    .examples-grid{grid-template-columns:1fr;}
+  }
